@@ -37,6 +37,8 @@ body{
     position: relative;
     list-style: none;
     width: 200%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 .navigation ul li:hover{
    background: var(--white); 
@@ -61,6 +63,16 @@ body{
     min-width: 60px;
     display: block;
     height: 60px;
-    line-height: 60px;
+    line-height: 50px;
     text-align: center;
+}
+/* .navigation ul li a .icon style the icon  */
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
 }
